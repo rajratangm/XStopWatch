@@ -34,8 +34,7 @@ function App() {
 
   return (
     <>
-    <h1>Stopwatch</h1>
-      <p>Timer: {format(timer)}</p>
+      <p>Timer:{format(timer)}</p>
       <button onClick={toggleHandler}>{isActivated ? 'Stop' : 'Start'}</button>
       <button onClick={resetHandler}>Reset</button>
     </>
